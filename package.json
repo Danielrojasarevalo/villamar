@@ -1,0 +1,13 @@
+{
+  "name": "sistema-inventario-abonos",
+  "version": "1.0.0",
+  "description": "Sistema de Inventario de Abonos - Frontend y Backend",
+  "scripts": {
+    "start": "node start-all.js",
+    "start:backend": "cd backend/inventario && ./venv/bin/python manage.py runserver",
+    "start:frontend": "cd 'proyecto sistema de inventario de abonos /inventariofront' && npm start",
+    "install:all": "cd backend/inventario && ./venv/bin/pip install -r requirements.txt && cd ../../'proyecto sistema de inventario de abonos /inventariofront' && npm install"
+  },
+  "author": "",
+  "license": "MIT"
+}
